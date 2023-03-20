@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import { 
   Container,  
 } from "../../styles/matches";
@@ -9,12 +10,10 @@ import League from "./components/League";
 export default function Matches() {
   return (
     <>
-      <div>Header</div>
+      <Header />
       <div>
         <Filter />
         <DayNavigation />      
-        <League />
-        <League />
         <League />
       </div>
       <footer></footer>

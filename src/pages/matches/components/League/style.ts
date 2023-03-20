@@ -1,10 +1,5 @@
 import styled from "styled-components"
 
-export const Container = styled.main`
-    margin: 0 auto;
-    padding: 0 1rem 2.5rem 1rem;   
-`;
-
 export const LeagueContainer = styled.div`
   max-width: 1440px;
   margin: 0 auto;
@@ -39,7 +34,6 @@ export const LeagueInfos = styled.div`
 
 export const AllMatches = styled.div`
   display: flex;
-  
 `
 
 export const SeeChampionship = styled.a`
